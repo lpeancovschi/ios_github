@@ -7,6 +7,7 @@ target 'Github' do
 
   pod 'Alamofire', '~> 4.3'
   pod 'SwiftyJSON'
+  pod 'SVProgressHUD'
 
   target 'GithubTests' do
     inherit! :search_paths

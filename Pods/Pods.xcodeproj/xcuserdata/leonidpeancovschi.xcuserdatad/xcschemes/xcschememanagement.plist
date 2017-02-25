@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2C5225E6CADBF7A6300413AACF5B3FC5</key>
+		<key>1D9B649BE9A3B61BBA15C893E67A75C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C3C192CBFE4B327DACE80FF934E673D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,7 +57,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B11A9CC309E5F67CC0AA4DBF6EFCDD8C</key>
+		<key>ABF18E84242DF0462D726AD65F427AEB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

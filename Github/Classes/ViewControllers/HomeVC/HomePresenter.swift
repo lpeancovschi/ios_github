@@ -14,10 +14,13 @@ class HomePresenter: HomePresenterProtocol {
     }
     
     func fetchRepositories() {
+        self.homeView?.showLoading(withMessage: nil)
         self.homeInteractor.fetchRepositories(success: { (repositories) in
             self.homeView?.show(repositories: repositories)
+            self.homeView?.hideLoading()
         }) { (error) in
-            print(error.localizedDescription)
+            self.homeView?.hideLoading()
+            self.homeView?.showError(error: error)
         }
     }
 }

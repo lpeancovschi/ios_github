@@ -1,6 +1,6 @@
 import UIKit
 
-protocol HomeView: class {
+protocol HomeView: BaseView {
     func show(repositories: [Repository])
 }
 
