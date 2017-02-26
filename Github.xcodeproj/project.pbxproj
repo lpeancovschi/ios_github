@@ -25,6 +25,8 @@
 		3B2DC2901E623E630078DE1C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC28F1E623E630078DE1C /* BaseView.swift */; };
 		3B2DC2921E6244580078DE1C /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC2911E6244580078DE1C /* HomePresenterTests.swift */; };
 		3B2DC2941E6244BE0078DE1C /* HomeViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC2931E6244BE0078DE1C /* HomeViewMock.swift */; };
+		3B2DC2961E62D89D0078DE1C /* HomeAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC2951E62D89D0078DE1C /* HomeAdapterTests.swift */; };
+		3B2DC2981E62DAE40078DE1C /* MockTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC2971E62DAE40078DE1C /* MockTableView.swift */; };
 		3B44BA461E61E97B001F0560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B44BA451E61E97B001F0560 /* AppDelegate.swift */; };
 		3B44BA481E61E97B001F0560 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B44BA471E61E97B001F0560 /* HomeViewController.swift */; };
 		3B44BA4B1E61E97B001F0560 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B44BA491E61E97B001F0560 /* Main.storyboard */; };
@@ -76,6 +78,8 @@
 		3B2DC28F1E623E630078DE1C /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseView.swift; path = Classes/ViewControllers/BaseView.swift; sourceTree = "<group>"; };
 		3B2DC2911E6244580078DE1C /* HomePresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePresenterTests.swift; path = Tests/HomeTests/HomePresenterTests.swift; sourceTree = "<group>"; };
 		3B2DC2931E6244BE0078DE1C /* HomeViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewMock.swift; path = Tests/HomeTests/HomeViewMock.swift; sourceTree = "<group>"; };
+		3B2DC2951E62D89D0078DE1C /* HomeAdapterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeAdapterTests.swift; path = Tests/HomeTests/HomeAdapterTests.swift; sourceTree = "<group>"; };
+		3B2DC2971E62DAE40078DE1C /* MockTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MockTableView.swift; path = Helpers/MockTableView.swift; sourceTree = "<group>"; };
 		3B44BA421E61E97B001F0560 /* Github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Github.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B44BA451E61E97B001F0560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B44BA471E61E97B001F0560 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +195,7 @@
 				3B2DC28B1E6236880078DE1C /* HomeInteractorTests.swift */,
 				3B2DC2911E6244580078DE1C /* HomePresenterTests.swift */,
 				3B2DC2931E6244BE0078DE1C /* HomeViewMock.swift */,
+				3B2DC2951E62D89D0078DE1C /* HomeAdapterTests.swift */,
 			);
 			name = "Home Tests";
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			children = (
 				3B2DC2861E622C870078DE1C /* JsonReader.swift */,
 				3B2DC28D1E62371A0078DE1C /* FakeNetworking.swift */,
+				3B2DC2971E62DAE40078DE1C /* MockTableView.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -602,6 +608,8 @@
 				3B44BA5E1E61E97B001F0560 /* GithubTests.swift in Sources */,
 				3B2DC28C1E6236880078DE1C /* HomeInteractorTests.swift in Sources */,
 				3B2DC28E1E62371A0078DE1C /* FakeNetworking.swift in Sources */,
+				3B2DC2981E62DAE40078DE1C /* MockTableView.swift in Sources */,
+				3B2DC2961E62D89D0078DE1C /* HomeAdapterTests.swift in Sources */,
 				3B2DC2941E6244BE0078DE1C /* HomeViewMock.swift in Sources */,
 				3B2DC2921E6244580078DE1C /* HomePresenterTests.swift in Sources */,
 				3B2DC2871E622C870078DE1C /* JsonReader.swift in Sources */,
